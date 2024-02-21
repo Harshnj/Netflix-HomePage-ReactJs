@@ -7,7 +7,7 @@ import "./header.sass";
 const Header = () => {
   return (
     <nav className="header">
-      <img className="logo" src={logo} alt="Netflix Img" />
+    <Link to="/">  <img className="logo" src={logo} alt="Netflix Img" /></Link>
       <div className="links">
         <Link to="/tvshows">Tv Shows</Link>
         <Link to="/movies">Movies</Link>
